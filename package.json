@@ -1,0 +1,22 @@
+{
+  "name": "js_challenges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "firstFactorial.js",
+  "scripts": {
+    "test": "node tests.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitJank/js_challenges.git"
+  },
+  "author": "Justin Jankiewicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitJank/js_challenges/issues"
+  },
+  "homepage": "https://github.com/gitJank/js_challenges#readme",
+  "dependencies": {
+    "chalk": "^2.4.2"
+  }
+}

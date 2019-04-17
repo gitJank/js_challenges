@@ -3,6 +3,8 @@
    should return (4 * 3 * 2 * 1) = 24. For the test cases, the range will be
    between 1 and 18 and the input will always be an integer.  */
 
+const coolTests = require("../helpers/coolTests");
+
 const FirstFactorial = num => {
   let expression = "";
 
@@ -14,4 +16,4 @@ const FirstFactorial = num => {
   //eval is cool
 };
 
-console.log(FirstFactorial(4));
+module.exports = FirstFactorial;

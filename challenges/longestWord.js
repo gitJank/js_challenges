@@ -3,6 +3,8 @@
   that are the same length, return the first word from the string with that length.
    Ignore punctuation and assume sen will not be empty.  */
 
+const coolTests = require("../helpers/coolTests");
+
 const LongestWord = sen => {
   return sen
     .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "")
@@ -22,7 +24,4 @@ const LengthOfLongestWord = sen => {
     });
 };
 
-const arg = "This is a test things string!";
-
-console.log("Longest Word:", LongestWord(arg));
-console.log("Length of Longest Word:", LengthOfLongestWord(arg));
+module.exports = { LengthOfLongestWord, LongestWord };
